@@ -89,6 +89,11 @@ section::before, section::after {
   left: 5%;
   overflow: hidden;
 }
+.coffee-cup .cup .coffee .dot {
+  position: absolute;
+  border-radius: 50%;
+  background: black;
+}
 .coffee-cup .cup .coffee .foam {
   width: 100%;
   aspect-ratio: 1;

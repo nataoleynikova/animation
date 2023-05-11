@@ -107,7 +107,7 @@ section {
 	left: 37%;
 	top: 35%;
 	border-radius: $border-radius;
-	background: $color-a;
+	background: $color-1;
 	box-shadow: 
 		-3.5vmin -2vmin 2vmin -1vmin $color-10,
 		-0.5vmin -0.5vmin 2vmin #0002,
@@ -121,7 +121,7 @@ section {
 			radial-gradient(100% 300% at 0% 50%, $color-10 15%, $color-0 30%),
 			linear-gradient(90deg, $color-0 60%, $color-5),
 			radial-gradient(at 0 100%, $color-3, $color-6),
-			$color-a;
+			$color-1;
 		border-radius: 0 2vmin 2vmin 1vmin;
 		width: 32%;
 		height: 18%;
@@ -161,6 +161,12 @@ section {
 			top: 5%;
 			left: 5%;
 			overflow: $overflow;
+
+			.dot {
+				position: $posititon;
+				border-radius: $border-radius;
+				background: black;
+			}
 
 			.foam {
 				width: $width;
