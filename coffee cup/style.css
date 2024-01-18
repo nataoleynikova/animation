@@ -11,6 +11,17 @@ html, body {
   height: 100%;
 }
 
+button {
+  margin: 120px 0 0 120px;
+  background: #140401;
+  padding: 10px;
+  cursor: pointer;
+}
+
+span {
+  color: #fff;
+}
+
 section {
   position: absolute;
   height: 40vmin;
@@ -92,7 +103,8 @@ section::before, section::after {
 .coffee-cup .cup .coffee .dot {
   position: absolute;
   border-radius: 50%;
-  background: black;
+  background: #bc924c;
+  opacity: 0;
 }
 .coffee-cup .cup .coffee .foam {
   width: 100%;
